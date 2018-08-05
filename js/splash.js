@@ -7,7 +7,7 @@ splash = ()=>{
     frame = () => {
         if ( loading == 100){
             clearInterval(id);
-            window.open("../html/index.html", "-self");
+            window.open("views/index.html", "-self");
         } else{
             loading = loading +1;
             if (loading == 90) {
