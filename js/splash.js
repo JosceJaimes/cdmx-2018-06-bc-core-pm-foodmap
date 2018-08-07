@@ -1,31 +1,10 @@
-splash = ()=>{
+alert("funcion")
 
-    var preload = document.getElementById('preload');
-    var loading = 0;
-    var id = setInterval(frame, 64);
+window.onload=timeout;
+function timeout(){
+window.setTimeout("redirect()",2000)}
 
-    frame = () => {
-        if ( loading == 100){
-            clearInterval(id);
-            window.open("views/index.html", "-self");
-        } else{
-            loading = loading +1;
-            if (loading == 90) {
-                preload.style.animation = "fadeout is esase";
-            }
-        }
-    }
-}
+function redirect(){
+window.location="../index.html"
+return}
 
-
-
-
-// window.onload=timeout;
-// timeout = () =>{
-//     window.setTimeout("redirect()",2000 )};
-//     redirect (){
-//         window.location = splash.html
-//         return;
-//     };
-
-//      onload = "timeout()"
