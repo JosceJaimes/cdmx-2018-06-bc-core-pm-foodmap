@@ -1,0 +1,23 @@
+{
+  "name": "cdmx-2018-06-bc-core-pm-foodmap",
+  "version": "0.1.0",
+  "description": "foo app, npm, fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosceJaimes/cdmx-2018-06-bc-core-pm-foodmap.git"
+  },
+  "keywords": [
+    "fetch",
+    "modals"
+  ],
+  "author": "josceline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosceJaimes/cdmx-2018-06-bc-core-pm-foodmap/issues"
+  },
+  "homepage": "https://github.com/JosceJaimes/cdmx-2018-06-bc-core-pm-foodmap#readme"
+}

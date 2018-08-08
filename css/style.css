@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: monospace;
+    background-image: url("../css/img/food.jpg");
 }
 .preload {
     width:  100%;
@@ -78,7 +79,7 @@ body {
 }
 /* estilos para el modal  */
 .container {
-    background-color: aqua;
+    /* background-image: 'css/colores.jpg'; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 90%;
     max-width: 1000px;
@@ -100,4 +101,9 @@ article {
     height: 100%;
     background: rgba(0,0,0,.5);
     display: none;
+}
+
+/* Pantalla principal */
+.result {
+    text-align: center;
 }
