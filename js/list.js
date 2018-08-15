@@ -1,26 +1,28 @@
 const list = (data)=>{
-    results="";
+    let results="";
+console.log(results);
+
 let restaurants = Object.values(data);
 // console.log(restaurants);
-for (i = 0; i < restaurants.length; i++){
+for(i = 0; i < restaurants.length; i++){
     let rest = restaurants[i];
-    // console.log(rest);
     
     for(r of rest){
     let ubications = (r);
-    console.log(ubications.img);
+
+    //  console.log(ubications.img);
     
-    results += `<div class="col-md-4">
+    results += `<div class="modal-body">
     <div class="card">
-    <div class = "ubications">
+    <div class ="ubications">
     <img class="responsive-img" src="${ubications.img}">
                     </div>
     </div>
     </div>
     </div> `;
-        
+   result.innerHTML= results;        
     }
-   result.innerHTML= results;
+    
 }
  
 }
@@ -42,3 +44,4 @@ for (i = 0; i < restaurants.length; i++){
 // activemodal();
 
 
+console.log("hol");
