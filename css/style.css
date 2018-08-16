@@ -84,14 +84,18 @@ body {
 /* termina el splash */
 
 
-estilos para el modal 
+/* estilos para el modal  */
 .container { 
-    background-image: 'css/colores.jpg'; 
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 90%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-bottom: 500px;
 } 
+.container filter {
+text-align: center;
+}
+
  article { 
     margin-top: 40px;
     background-color: white;
